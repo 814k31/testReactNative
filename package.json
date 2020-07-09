@@ -1,0 +1,13 @@
+{
+  "name": "test-react-native",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "react": "16.13.1",
+    "react-native": "^0.63.0"
+  }
+}
