@@ -8,9 +8,12 @@ import {
 
 class HelloWorld extends React.Component {
   render() {
+    const isHermes = () => !!global.HermesInternal;
+
     return (
       <View style={styles.container}>
-        <Text style={styles.hello}>Hello, World</Text>
+        <Text style={styles.hello}>Hello, World!!!!!!</Text>
+        <Text style={styles.hello}>isHermes {isHermes().toString()}</Text>
       </View>
     );
   }
